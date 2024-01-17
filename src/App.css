@@ -1,0 +1,39 @@
+.app-container{
+  display:flex;
+  min-height: 700px;
+  /* background-image: url("https://tse2.mm.bing.net/th?id=OIP.D2wLuj38wcdBJgxatvBZrwHaEO&pid=Api&P=0&h=180"); */
+  /* background-repeat: no repeat; */
+}
+.content{
+  width:100%;
+}
+.post-card{
+
+  margin:30px 250px;
+  padding:5px;
+  color:black;
+  width: 650px;
+  height:250px;
+  border: 2px solid black;
+  /* display: flex; */
+
+  
+}
+.tag{
+  margin:0px 3px;
+}
+
+.reactions{
+  margin:20px;
+  padding-top: 5px;
+}
+.create-post{
+  padding:15px 80px;
+  width:50%;
+}
+.welcome{
+  margin-top:150px;
+  margin-bottom:300px;
+  color:blue;
+
+}
