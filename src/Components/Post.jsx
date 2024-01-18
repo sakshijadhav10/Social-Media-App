@@ -7,13 +7,16 @@ const Post = ({post})=>{
   const {deletePost} =useContext(PostList);
     return(
         <>
-        <div className=" post-card" >
+        <div className="card post-card" >
  
-  <div className="card-body">
+  <div className="card-body post ">
     <h5 className="card-title">{post.title}
   < span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"onClick = {()=> deletePost(post.id)}>
-   <MdDelete/>
- <span class="visually-hidden">unread messages</span>
+  
+  <MdDelete/>
+  
+
+  <span class="visually-hidden">unread messages</span>
   </span>
   </h5>
     <p className="card-text ">{post.body}</p>

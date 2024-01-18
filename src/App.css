@@ -1,23 +1,18 @@
 .app-container{
   display:flex;
   min-height: 700px;
-  /* background-image: url("https://tse2.mm.bing.net/th?id=OIP.D2wLuj38wcdBJgxatvBZrwHaEO&pid=Api&P=0&h=180"); */
-  /* background-repeat: no repeat; */
 }
 .content{
   width:100%;
 }
 .post-card{
-
   margin:30px 250px;
   padding:5px;
   color:black;
-  width: 650px;
-  height:250px;
-  border: 2px solid black;
+  width: 600px;
+  height:300px;
   /* display: flex; */
-
-  
+  border:2px solid black;
 }
 .tag{
   margin:0px 3px;
